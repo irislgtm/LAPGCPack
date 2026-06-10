@@ -1,21 +1,28 @@
 # LAPGC Modpack
 
-Minecraft 1.12.2 modpack built from this repo via GitHub Actions.
+Minecraft 1.12.2 modpack. Builds are produced automatically by GitHub Actions.
 
-## Installing
+## Installing (players)
 
-1. Go to the [Actions tab](https://github.com/irislgtm/LAPGCPack/actions) and click the latest successful run
-2. Under **Artifacts**, download `modpack`
-3. Unzip the downloaded archive — inside you'll find `modpack-latest.zip`
-4. In PrismLauncher: **Add Instance → Import from ZIP** and select `modpack-latest.zip`
+1. Go to the [Actions tab](https://github.com/irislgtm/LAPGCPack/actions)
+2. Click the latest successful run, scroll to **Artifacts**, download `modpack`
+3. Unzip once — inside is `modpack-latest.zip`
+4. PrismLauncher: **Add Instance → Import from ZIP** → select `modpack-latest.zip`
 
-Releases (when tagged) also have the ZIP attached directly with no double-zipping.
+Releases (tagged versions) have the ZIP as a direct download with no extra nesting.
 
 ## Contributing
 
-The repo tracks **config, groovy scripts, and mod metadata** — not jar files (except WitcheryResurrected, which isn't on CurseForge).
+You need a local git clone of this repo. The CI output is a PrismLauncher instance — it's **not** a git repo and can't be pushed from.
 
-### Adding/removing a mod
+### Setup
+
+```powershell
+git clone https://github.com/irislgtm/LAPGCPack
+cd LAPGCPack
+```
+
+### Adding / removing a mod
 
 Mod metadata lives in `minecraft/mods/.index/` as packwiz `.pw.toml` files:
 
@@ -27,30 +34,42 @@ filename = "mod-file-1.0.jar"
 file-id = 1234567
 ```
 
-- **Add a mod**: drop the `.pw.toml` into `.index/` and the jar into `minecraft/mods/`
-- **Remove a mod**: delete both the `.pw.toml` and the jar
-- **Update a mod**: update the `file-id` (CurseForge) or URL (Modrinth) in the `.pw.toml`
+- **Add**: create a `.pw.toml` in `.index/` with the CurseForge file-id or Modrinth URL, then drop the jar in `minecraft/mods/`
+- **Remove**: delete both the `.pw.toml` and the jar
+- **Update**: change the `file-id` / URL in the `.pw.toml`
 
-### Changing configs
+### Changing configs / scripts
 
-Edit files under `minecraft/config/` or `minecraft/groovy/` — they're tracked and included in every build.
+Edit files under `minecraft/config/` and `minecraft/groovy/`. Everything there is tracked and included in every CI build.
 
-### Commit & push
+### Mods without CurseForge/Modrinth
 
-```powershell
-git add -A
-git commit -m "description of changes"
-git push
-```
-
-The CI will automatically build a fresh ZIP and upload it as an artifact.
-
-### Direct jar tracking
-
-If a mod isn't on CurseForge or Modrinth, force-add the jar so the CI picks it up:
+If a mod isn't on those platforms, force-add the jar so the CI bundles it:
 
 ```powershell
 git add -f minecraft/mods/mod-name.jar
 ```
 
-Then create a `.pw.toml` entry with a `[update.direct]` section so `update.py` won't delete it.
+Add a `.pw.toml` entry so `update.py` won't delete it on the next CI run.
+
+### Testing changes locally
+
+Copy your changes into your PrismLauncher instance to test:
+
+```powershell
+# from the repo root
+Copy-Item -Recurse minecraft/config "C:\Users\...\instances\YourInstance\minecraft\config"
+Copy-Item -Recurse minecraft/mods "C:\Users\...\instances\YourInstance\minecraft\mods"
+```
+
+Or symlink the instance's `minecraft` folder to the repo for real-time testing.
+
+### Commit & push
+
+```powershell
+git add -A
+git commit -m "what changed"
+git push
+```
+
+The CI builds a fresh ZIP automatically.
