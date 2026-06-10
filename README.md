@@ -13,14 +13,18 @@ Releases (tagged versions) have the ZIP as a direct download with no extra nesti
 
 ## Contributing
 
-Clone the repo into a fresh folder inside your PrismLauncher instances directory — Prism will pick it up automatically:
+Clone the repo into a fresh folder inside your PrismLauncher instances directory, then download the mods:
 
 ```powershell
 cd C:\Users\YOUR_USER\AppData\Roaming\PrismLauncher\instances
 git clone https://github.com/irislgtm/LAPGCPack
+cd LAPGCPack
+python update.py
 ```
 
-Now `LAPGCPack/` appears in your launcher and any change you make is tracked by git. Don't clone into an existing instance folder — start from a clean directory.
+This downloads all mod jars from CurseForge/Modrinth. The repo only tracks configs and mod metadata. After `update.py` finishes, `LAPGCPack/` appears in your launcher and any change you make is tracked by git.
+
+Don't clone into an existing instance folder — start from a clean directory.
 
 ### Adding / removing a mod
 
