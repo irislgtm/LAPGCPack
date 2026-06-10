@@ -31,6 +31,7 @@ def import_prism_index(index_file: pathlib.Path, index_path: pathlib.Path):
             if child.suffix.lower() != ".toml": continue
             dest = index_path / child.name
             if dest.exists(): continue
+            dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_bytes(child.read_bytes())
         return
     try:
