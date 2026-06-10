@@ -1,0 +1,17 @@
+filename = 'Requious Frakto-0.12.jar'
+name = 'Requious Frakto'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Requious Frakto-0.12.jar'
+
+[download]
+hash = 'c853ee5e45613f37f787ba54333996b89bc1ece0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3218640
+project-id = 336748

@@ -1,0 +1,38 @@
+# Build outputs
+/build/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE & workspace files
+.vscode/
+
+# Packer
+.packignore
+
+# PrismLauncher instance runtime
+/natives/
+/packwiz.exe
+/instance.cfg
+
+# Minecraft: block everything except config, scripts, groovy, and mod index
+/minecraft/*
+!/minecraft/config/
+!/minecraft/scripts/
+!/minecraft/groovy/
+!/minecraft/mods/
+!/minecraft/mods/.index/
+/minecraft/mods/*
+!/minecraft/mods/.index/
+
+# Runtime artifacts
+*.dat
+*methods-stable*.csv
+contributors.json
+tile_entity_tick_slip.json
+sideOnlyGenerated.json
+
+# Log files anywhere
+*.log
+*.log.gz

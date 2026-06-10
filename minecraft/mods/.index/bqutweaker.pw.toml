@@ -1,0 +1,17 @@
+filename = 'BQUTweaker-1.3.7.jar'
+name = 'Better Questing Unofficial Tweaker (BQUTweaker)'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BQUTweaker-1.3.7.jar'
+
+[download]
+hash = '9881ba600aa4f0100c28b769b45e834f87ebcbfd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4733466
+project-id = 905701

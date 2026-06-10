@@ -1,0 +1,17 @@
+filename = 'thaumictinkerer-1.12.2-5.9.15-Unofficial.jar'
+name = 'Thaumic Tinkerer Unofficial'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'thaumictinkerer-1.12.2-5.9.15-Unofficial.jar'
+
+[download]
+hash = '8485f24db07bfdc7d4a0249e54ad0dc8760fea3f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7162391
+project-id = 965811

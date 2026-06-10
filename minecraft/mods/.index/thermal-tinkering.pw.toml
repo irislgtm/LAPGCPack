@@ -1,0 +1,17 @@
+filename = 'ThermalTinkering-1.12.2-2.0.1.jar'
+name = 'Thermal Tinkering'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ThermalTinkering-1.12.2-2.0.1.jar'
+
+[download]
+hash = 'ba227140831886b512cd5cec9459c1c23b6f92ce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2684043
+project-id = 251718

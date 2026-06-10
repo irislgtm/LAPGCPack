@@ -1,0 +1,17 @@
+filename = 'etlunar-1.12.2-2.0.20.1.jar'
+name = 'Environmental Lunar Tech'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'etlunar-1.12.2-2.0.20.1.jar'
+
+[download]
+hash = 'fc24d1e5b03340bfc3684a48b4df77af2f49ed34'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2691537
+project-id = 253565

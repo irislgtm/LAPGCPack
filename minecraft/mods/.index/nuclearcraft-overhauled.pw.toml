@@ -1,0 +1,17 @@
+filename = 'nuclearcraft-1.12.2-2o.9.7.jar'
+name = 'NuclearCraft: Overhauled'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'NuclearCraft-1.12.2-2o.9.7'
+
+[download]
+hash = 'b0f9d31ba566626f284ec987b80bb2b76104dd9c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8197222
+project-id = 336895

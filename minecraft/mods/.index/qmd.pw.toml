@@ -1,0 +1,17 @@
+filename = 'QMD-1.5.1-1.12.2.jar'
+name = 'QMD'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'QMD-1.5.1-1.12.2.jar'
+
+[download]
+hash = '0b4a126bba38cea6fdc815af2877a88d58695cc3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8097146
+project-id = 362056

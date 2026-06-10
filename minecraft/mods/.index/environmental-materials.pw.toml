@@ -1,0 +1,17 @@
+filename = 'environmentalmaterials-1.12.2-1.0.20.1.jar'
+name = 'Environmental Materials'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'environmentalmaterials-1.12.2-1.0.20.1.jar'
+
+[download]
+hash = 'e9d9530a520dc3fe3ef112e297a1147cbaecca68'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2691535
+project-id = 278825

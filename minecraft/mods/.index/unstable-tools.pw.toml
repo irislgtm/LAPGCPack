@@ -1,0 +1,17 @@
+filename = 'unstabletools-1.12.2-1.3.jar'
+name = 'Unstable Tools'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'unstabletools-1.12.2-1.4.jar'
+
+[download]
+hash = '59e5e7a1d564afe05458b6f5a69660c9c7793b13'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4293939
+project-id = 322355

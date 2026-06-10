@@ -1,0 +1,17 @@
+filename = 'immersiveintelligence-0.3.1-dev4.jar'
+name = 'Immersive Intelligence'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'immersiveintelligence-0.3.1-dev4.jar'
+
+[download]
+hash = 'f9c576e3d81c51c321029d5172f7ebd1ce6caac6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8191055
+project-id = 344344

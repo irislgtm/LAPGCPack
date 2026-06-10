@@ -1,0 +1,17 @@
+filename = 'TinkersPlannerAntique-1.12.2-1.0.3.jar'
+name = "Tinker's Planner Antique"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'TinkersPlannerAntique-1.12.2-1.0.3.jar'
+
+[download]
+hash = 'be22ccbd8cce141cab631fcad5c61ada0282c70c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8064354
+project-id = 1535236

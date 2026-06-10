@@ -1,0 +1,17 @@
+filename = 'Mekanism-CE-Unofficial-All-9.9.4.370.jar'
+name = 'Mekanism-CE-Unofficial'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Mekanism-CE-Unofficial-All-9.9.4.370.jar'
+
+[download]
+hash = 'b6c6df00e9d0c3ae802534d1f44aba32fa82201a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8147536
+project-id = 840735

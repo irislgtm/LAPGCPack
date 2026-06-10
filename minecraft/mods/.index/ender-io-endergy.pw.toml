@@ -1,0 +1,17 @@
+filename = 'EnderIO-endergy-1.12.2-5.3.72.jar'
+name = 'Ender IO Endergy'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ender IO endergy - 5.3.72'
+
+[download]
+hash = '8680a3378f36adb2680fae14a9cfa9d2abbd5694'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4674241
+project-id = 304346

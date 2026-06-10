@@ -1,0 +1,17 @@
+filename = 'melonlib-1.12.2-1.11.3.jar'
+name = 'MelonLib'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MelonLib 1.12.2 v1.11.3'
+
+[download]
+hash = 'f7e0bbfeb42dbe5c67a7a4155dd87d85ece3026a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8005044
+project-id = 1027035

@@ -1,0 +1,17 @@
+filename = 'thaumicspeedup-4.0.jar'
+name = 'Thaumic Speedup'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'thaumicspeedup-4.0.jar'
+
+[download]
+hash = '05b3b804f45a038329fc13e854dda03a0343a7f9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3614638
+project-id = 409880

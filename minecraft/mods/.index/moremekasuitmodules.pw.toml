@@ -1,0 +1,17 @@
+filename = 'MekanismMoreMekaSuitModules-1.1.0.jar'
+name = 'MoreMekaSuitModules'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MekanismMoreMekaSuitModules-1.1.0.jar'
+
+[download]
+hash = 'ada05a38b2a83f6556588bed1629b8377b9f29a1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8147533
+project-id = 1205682

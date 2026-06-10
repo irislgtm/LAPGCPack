@@ -1,0 +1,17 @@
+filename = 'thaumicbases-3.6.024.0.jar'
+name = 'Thaumic Bases Unofficial'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Thaumic Bases Unofficial - 3.6.024.0'
+
+[download]
+hash = '25b32294000796a7192f87299a0521cb9db478a4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7582987
+project-id = 293406

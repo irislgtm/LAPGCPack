@@ -1,0 +1,17 @@
+filename = 'ae2powertools-1.6.0-alpha4.jar'
+name = 'AE2 PowerTools'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = 'AE2 PowerTools 1.6.0-alpha4'
+
+[download]
+hash = 'fc293c351b644fffc14bf9ac1af3c8ff53cbf796'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8151449
+project-id = 1444328

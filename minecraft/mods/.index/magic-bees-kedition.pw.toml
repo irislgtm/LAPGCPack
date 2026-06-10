@@ -1,0 +1,17 @@
+filename = 'MagicBees-1.12.2-kedition-0.1.0.jar'
+name = 'Magic Bees Kedition'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MagicBees Kedition - 0.1.0'
+
+[download]
+hash = '8e8a66ce3f59d3f3b427e5bdd9f48cb9eab34983'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6636803
+project-id = 1284019

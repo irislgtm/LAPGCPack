@@ -1,0 +1,17 @@
+filename = 'alchemistry-1.3.2.jar'
+name = 'Alchemistry - Redox'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'alchemistry-1.3.2.jar'
+
+[download]
+hash = '59eda7a6d143ed8a550d43a782eb1aa9d5f90df1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6974298
+project-id = 1218726

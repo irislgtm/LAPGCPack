@@ -1,0 +1,17 @@
+filename = 'ThaumicJEI-1.12.2-1.7.0.jar'
+name = 'Thaumic JEI'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ThaumicJEI-1.12.2-1.7.0.jar'
+
+[download]
+hash = '859b30c956a1cc6e5985b22cfdd7af138c747562'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5646810
+project-id = 285492

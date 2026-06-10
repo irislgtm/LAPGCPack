@@ -1,0 +1,17 @@
+filename = 'groovyscript-1.4.3.jar'
+name = 'GroovyScript'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'GroovyScript − 1.4.3'
+
+[download]
+hash = '48ffe55af9173b3f9ee764f678b6b58d70dab90c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7925117
+project-id = 687577

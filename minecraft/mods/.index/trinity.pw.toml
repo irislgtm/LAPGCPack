@@ -1,0 +1,17 @@
+filename = 'Trinity-1.12.2-1.5.h.jar'
+name = 'Trinity'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Trinity-1.12.2-1.5.h'
+
+[download]
+hash = '4056de93ec152340e63241348ba26429e69c6a70'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6217851
+project-id = 354949

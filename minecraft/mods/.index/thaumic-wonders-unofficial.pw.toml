@@ -1,0 +1,17 @@
+filename = 'thaumicwonders-2.3.2.jar'
+name = 'Thaumic Wonders Unofficial'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'thaumicwonders-2.3.2.jar'
+
+[download]
+hash = '71747e9cf02aa9702868060769f4bbf8825f2cf2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8212971
+project-id = 1307741

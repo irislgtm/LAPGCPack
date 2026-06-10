@@ -1,0 +1,17 @@
+filename = 'quantumhue-1.0.4.jar'
+name = 'QuantumHue-Visualizer'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'quantumhue-1.0.4.jar'
+
+[download]
+hash = '88447b620ae27f9289199dc7889fa258cbeee8d9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7872670
+project-id = 1398201

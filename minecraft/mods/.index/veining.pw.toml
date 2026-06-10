@@ -1,0 +1,17 @@
+filename = 'veining-1.3.2-1.12.x.jar'
+name = 'Veining'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2', '1.8' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Veining Version 1.3.2 for Minecraft 1.12.x'
+
+[download]
+hash = 'a0dbc6ad8021c8fa2f7d00de8058499268000232'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2578505
+project-id = 273605

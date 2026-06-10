@@ -1,0 +1,17 @@
+filename = 'TombManyGraves-1.12-4.2.0.jar'
+name = 'Tomb Many Graves 2'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'TombManyGraves2-1.12-4.2.0'
+
+[download]
+hash = 'cfba896b87294e2351c383b5d4127112d26ab5e0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2619249
+project-id = 262823

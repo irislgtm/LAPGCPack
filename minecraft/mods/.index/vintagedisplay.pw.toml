@@ -1,0 +1,17 @@
+filename = 'DuraDisplay-1.7.jar'
+name = 'DuraDisplay'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'VintageDisplay 1.7'
+
+[download]
+hash = 'd5d87f66cbf702f5219f42f704febb12b8679b1a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7933246
+project-id = 1255064

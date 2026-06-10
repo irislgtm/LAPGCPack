@@ -1,0 +1,17 @@
+filename = 'Rustic Thaumaturgy-4.4a.jar'
+name = 'Rustic Thaumaturgy'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Rustic Thaumaturgy v4.4a'
+
+[download]
+hash = 'b807eabc02eba255f36d1d4738fa5bc266a5e29a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2702097
+project-id = 302020

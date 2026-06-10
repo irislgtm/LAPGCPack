@@ -1,0 +1,17 @@
+filename = 'PackagedFluidCrafting-1.12.2-1.0.0.3.jar'
+name = 'PackagedFluidCrafting'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.12.2-1.0.0.3'
+
+[download]
+hash = '516e4475753420ae6ac7014febb6b7a2465c81c6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7007922
+project-id = 1334937
