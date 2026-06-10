@@ -13,14 +13,14 @@ Releases (tagged versions) have the ZIP as a direct download with no extra nesti
 
 ## Contributing
 
-You need a local git clone of this repo. The CI output is a PrismLauncher instance — it's **not** a git repo and can't be pushed from.
-
-### Setup
+Clone the repo directly into your PrismLauncher instances folder so your instance IS the working directory:
 
 ```powershell
+cd C:\Users\YOUR_USER\AppData\Roaming\PrismLauncher\instances
 git clone https://github.com/irislgtm/LAPGCPack
-cd LAPGCPack
 ```
+
+Now `LAPGCPack/` appears in your Prism launcher and any change you make is tracked by git.
 
 ### Adding / removing a mod
 
@@ -44,25 +44,13 @@ Edit files under `minecraft/config/` and `minecraft/groovy/`. Everything there i
 
 ### Mods without CurseForge/Modrinth
 
-If a mod isn't on those platforms, force-add the jar so the CI bundles it:
+Force-add the jar so the CI bundles it:
 
 ```powershell
 git add -f minecraft/mods/mod-name.jar
 ```
 
 Add a `.pw.toml` entry so `update.py` won't delete it on the next CI run.
-
-### Testing changes locally
-
-Copy your changes into your PrismLauncher instance to test:
-
-```powershell
-# from the repo root
-Copy-Item -Recurse minecraft/config "C:\Users\...\instances\YourInstance\minecraft\config"
-Copy-Item -Recurse minecraft/mods "C:\Users\...\instances\YourInstance\minecraft\mods"
-```
-
-Or symlink the instance's `minecraft` folder to the repo for real-time testing.
 
 ### Commit & push
 
