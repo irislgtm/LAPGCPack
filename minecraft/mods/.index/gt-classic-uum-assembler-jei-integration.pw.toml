@@ -1,0 +1,17 @@
+filename = 'eca-1.12.2-1.0.jar'
+name = 'GT Classic UUM Assembler JEI Integration'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'eca-1.12.2-1.0.jar'
+
+[download]
+hash = 'add345d1655a678169a300ba7b086b51bc55c765'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2855338
+project-id = 357448

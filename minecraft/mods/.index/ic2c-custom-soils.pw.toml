@@ -1,0 +1,17 @@
+filename = 'Ic2cCustomSoils-1.0.0.jar'
+name = 'Ic2c Custom Soils'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ic2cCustomSoils-1.0.0.jar'
+
+[download]
+hash = '793a1e7a4046f5c93aa9c8c59ec9aa40519a537c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2822170
+project-id = 350486

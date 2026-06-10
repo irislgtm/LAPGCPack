@@ -1,0 +1,17 @@
+filename = 'ElectroMagicToolsIC2C-1.12.2-0.0.15-19.jar'
+name = 'Electro-Magic Tools - IC2 Classic'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ElectroMagicToolsIC2C-1.12.2-0.0.15-19.jar'
+
+[download]
+hash = '9f359b9f7e2b19ed0bbe0d63b3d1d333592ac3e6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4064992
+project-id = 339962

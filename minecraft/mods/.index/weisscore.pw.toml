@@ -1,0 +1,17 @@
+filename = 'WeissCore-1.12.2-0.1.1-16.jar'
+name = 'WeissCore'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'WeissCore-1.12.2-0.1.1-16.jar'
+
+[download]
+hash = '28ae2c56104133306d2a03a14804d654968aa49c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2776632
+project-id = 226657

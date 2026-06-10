@@ -1,0 +1,17 @@
+filename = 'IndustrialWires-1.8-46.jar'
+name = 'Industrial Wires Classic'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'IndustrialWires-1.8-46.jar'
+
+[download]
+hash = '552e3d0352e95242989746b3020bc804ea677795'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3786846
+project-id = 581373

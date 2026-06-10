@@ -1,0 +1,17 @@
+filename = 'IC2Classic-1.12.2-1.5.15.jar'
+name = 'IC2 Classic'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'IC2Classic-1.12.2-1.5.15'
+
+[download]
+hash = 'f3884369407e025d6afb9731337e9848a7437075'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8153677
+project-id = 242942

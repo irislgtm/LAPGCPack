@@ -1,0 +1,17 @@
+filename = 'IC2CExtras-1.4.8.8.jar'
+name = 'IC2C Extras'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'IC2CExtras-1.4.8.8.jar'
+
+[download]
+hash = '8afc4e60bea35dc55531ee06e5efad7da3e7fd4b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7843999
+project-id = 302906

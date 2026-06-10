@@ -1,0 +1,17 @@
+filename = 'VintageGT-1.2.jar'
+name = 'Vintage GregTech'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'VintageGT-1.2.jar'
+
+[download]
+hash = '478132c5a0a93094d4677e92095095b0fbba68bf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4466591
+project-id = 844311

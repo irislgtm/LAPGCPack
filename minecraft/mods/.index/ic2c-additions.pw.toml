@@ -1,0 +1,17 @@
+filename = 'ic2caddons-1.0.2.jar'
+name = 'IC2C Additions'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'IC2C Addons v1.0.2'
+
+[download]
+hash = 'c89817c69b783f39d29ed32903298f8c9ed5fb93'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2635483
+project-id = 304040

@@ -1,0 +1,17 @@
+filename = 'gravisuit-1.0.8.5.jar'
+name = 'Gravisuit Classic'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gravisuit-1.0.8.5.jar'
+
+[download]
+hash = '02845864912eb2a94353e5c9e7876587fa62165e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4051081
+project-id = 314829

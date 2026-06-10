@@ -32,6 +32,8 @@ __pycache__/
 contributors.json
 tile_entity_tick_slip.json
 sideOnlyGenerated.json
+thaumicjei_itemstack_aspects.json
+items.csv
 
 # Log files anywhere
 *.log
