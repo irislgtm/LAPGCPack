@@ -5972,6 +5972,18 @@
               }
             },
             {
+              "name": "gtclassic:beryllium_block",
+              "blockstate": {},
+              "type": "legacy_block",
+              "modules": {
+                "plannerator:tags": {
+                  "tags": [
+                    "blockBeryllium"
+                  ]
+                }
+              }
+            },
+            {
               "name": "nuclearcraft:ingot_block",
               "metadata": 9,
               "blockstate": {
@@ -6031,6 +6043,17 @@
                 "plannerator:tags": {
                   "tags": [
                     "siliconNDoped"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "ic2c_extras:uranium235ingot",
+              "type": "legacy_item",
+              "modules": {
+                "plannerator:tags": {
+                  "tags": [
+                    "ingotUranium235"
                   ]
                 }
               }
@@ -11181,6 +11204,18 @@
               }
             },
             {
+              "name": "gtclassic:beryllium_block",
+              "blockstate": {},
+              "type": "legacy_block",
+              "modules": {
+                "plannerator:tags": {
+                  "tags": [
+                    "blockBeryllium"
+                  ]
+                }
+              }
+            },
+            {
               "name": "nuclearcraft:ingot_block",
               "metadata": 9,
               "blockstate": {
@@ -12248,6 +12283,17 @@
                 "plannerator:tags": {
                   "tags": [
                     "siliconNDoped"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "ic2c_extras:uranium235ingot",
+              "type": "legacy_item",
+              "modules": {
+                "plannerator:tags": {
+                  "tags": [
+                    "ingotUranium235"
                   ]
                 }
               }
