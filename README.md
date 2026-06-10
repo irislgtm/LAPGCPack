@@ -13,14 +13,14 @@ Releases (tagged versions) have the ZIP as a direct download with no extra nesti
 
 ## Contributing
 
-Clone the repo directly into your PrismLauncher instances folder so your instance IS the working directory:
+Clone the repo into a fresh folder inside your PrismLauncher instances directory — Prism will pick it up automatically:
 
 ```powershell
 cd C:\Users\YOUR_USER\AppData\Roaming\PrismLauncher\instances
 git clone https://github.com/irislgtm/LAPGCPack
 ```
 
-Now `LAPGCPack/` appears in your Prism launcher and any change you make is tracked by git.
+Now `LAPGCPack/` appears in your launcher and any change you make is tracked by git. Don't clone into an existing instance folder — start from a clean directory.
 
 ### Adding / removing a mod
 
